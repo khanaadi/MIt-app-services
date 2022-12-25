@@ -12,4 +12,14 @@ def frients_list():
         'Afrid',
         'Asif',
         'Shoyab'
+    ],
+
+@app.route('/api/cameras')
+def cameras_list():
+    return [
+        "Nikon",
+        "canon",
+        "sony",
+        "poin cameras"
     ]
+    
